@@ -1,0 +1,5 @@
+rootProject.name = 'znxk-admin'
+include 'znxk-gateway'
+include 'znxk-admin-api'
+include 'znxk-auth'
+

@@ -1,0 +1,10 @@
+group 'com.znxk'
+version '1.0-SNAPSHOT'
+
+
+dependencies {
+    implementation("org.springframework.boot:spring-boot-starter-web") {
+        exclude(module: "spring-boot-starter-tomcat")
+    }
+}
+

@@ -1,0 +1,19 @@
+spring:
+  profiles:
+    active: ${active:dev}
+---
+spring:
+  profiles: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.1.18:8848
+        namespace: 986b370e-63bd-49a6-b2d8-78552b212729
+      config:
+        server-addr: 192.168.1.18:8848
+        namespace: 986b370e-63bd-49a6-b2d8-78552b212729
+        file-extension: yaml
+        prefix: znxk-admin-api
+        group: znxk-admin
+
+---
